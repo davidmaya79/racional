@@ -1,0 +1,183 @@
+ 
+:root {
+  --color-blue-medium: #8fe2e4;
+  --color-purple: #632ce7;
+  --color-gray: #ccc;
+  --color-gray-medium: #f8f9fa;
+  --color-yellow: #fac32c;
+}
+/*  */
+a{
+  color: inherit;
+}
+/* nav */
+.navbar-brand > img {
+  width: 100px;
+}
+
+.nav-link  {
+   color: #000;
+}
+
+.navbar-main .active {
+  text-decoration: underline;/* decoracion nav */
+}
+
+.header-main {
+  min-height: 100vh;/*separacion del menu  */
+  background-color: #f0f3f7;/* color gris */
+}
+
+@media screen and (max-width: 376px){
+  body {
+    margin-top: 4rem;
+  }
+   
+  
+  
+.header-main {
+   height:initial; 
+    
+}
+}
+
+ 
+
+.display-2 {
+	font-size: 6rem;
+}
+
+/*  */
+
+.titulo-outline {
+	color: #fff;/* le doy color blanco */
+	-webkit-text-stroke: 3px #000;/* efecto */
+}
+
+ /* fin */
+ 
+
+ 
+/*estilos principales de mi hoja de estilo  */
+html, body{
+    font-family: 'popins', sans-serif;/*  tipologia que voy a estar usando*/
+}
+/* tamaños de las cabezeras preestablecidos estamos utilizando rem es la medida basada en la raiz del tamaño de la fuente del navegador*/
+ 
+ 
+ 
+.largo {
+	font-size: 1.30rem;
+}
+
+.display-1 {
+	font-size: 5rem;
+}
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+#showinicio {/* identificador id */
+	height: 80vh;/* altura de la portada de 80 y le doy un color gris*/
+	background: #f8f9fa;
+	padding: 150px 0;
+}
+
+ 
+
+ 
+
+#showinicio .titulo-outline {
+	color: #fff;/* le doy color blanco */
+	-webkit-text-stroke: 5px #000;/* efecto */
+   
+}
+
+ 
+
+.showinicio-row-titulo {
+	padding-top: 70px;
+}
+
+ 
+
+ /* nosotros */
+ 
+h4 {
+	font-size: 3.5rem;
+  text-align: left;
+  padding: 10px;
+}
+
+.largo2 {
+	font-size: 1.55rem;
+  text-align: left;
+  padding: 10px;
+}
+
+.contact {
+  text-align: left;
+  padding: 16px;
+  font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;/*espacio entre lineas  */
+}
+
+.Main2 {
+  padding:15px ;
+}
+ 
+
+/* fin nosotros */
+ /* servicios card */
+
+ 
+ .card {
+   width: 18rem;
+   padding: 5px;
+   margin: 54px;
+    
+
+    
+    
+ }
+
+.container2 {
+  background-color: #eff3f7;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+.container3 {
+  margin-top: 40px;
+}
+
+
+/* formulario */
+
+.form-group label {
+  color: var(--main-color);
+}
+
+.form-group .btn {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Main {
+  background-color: #f2f6fa;
+}
+
+.form-group {
+  padding-top: 30px;
+}
+
+ 
+ 
